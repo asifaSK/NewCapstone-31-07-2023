@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid blue;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav-bar{
+  background-color: black;
+  color: white;
+  font: bold;
+}
+
+.nav-link{
+  color: white;
+}
+
+.Home{
+  text-align: center;
+}
+
+.card{
+  display:inline-block;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.Button-class{
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-container-div{
+  display: flex;
+  padding: 10px;
+}
+
+.coach-signup-div{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 10px;
+  
+}
+
+.user-signup-div{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 10px;
+  
+
+}
+
+label{
+  margin: 10px;
+  text-align: center;
+}
+
+
+
+.login-credentials-div{
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.login-div{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid blue;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+button{
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(2, 20, 27);
+  font: bold;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input{
+  padding: 5px;
+}
+
+p{
+  background-color: blue;
+  color:white;
+  text-align: center;
+  padding: 5px;
+}
+
+.invalid-cred-p{
+  background-color: white;
+  color: red;
+}
+
+td{
+  text-align: left;
+}
+
+span{
+  color: red;
+  font-size: smaller;
+}
